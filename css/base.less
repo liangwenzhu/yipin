@@ -116,6 +116,9 @@ body{
   height: 100%;
 }
 #swiper-container{
+  p{
+    .cursor-default;
+  }
   font-size: 18px;
   background: #fff;
   .overflow{
@@ -160,7 +163,7 @@ body{
     article{
       position: absolute;
       left:50%;
-      top:55%;
+      top:50%;
       margin-left: -50%;
       margin-top: -25%;
     }
@@ -168,11 +171,10 @@ body{
       position: absolute;
       width:85%;
       left:50%;
-      top:50%;
+      top:45%;
       margin-left: -42.5%;
       margin-top: -25%;
     }
-
   }
   #swiper-slide3{
     img{
@@ -200,6 +202,7 @@ body{
       article{
         height:50%;
         padding-top:50%;
+        .cursor-default;
       #sec{
         padding-top:50px;
         padding-bottom:50px;
@@ -290,44 +293,50 @@ body{
         }
       }
     }
-
   }
   #swiper-slide4{
     position: relative;
     background-image: url("../imgs/bg.png") ;
     .background-size-cover;
     .container{
+      width:100%;
       position: absolute;
       left:50%;
       top:50%;
-      margin-left: -42%;
+      margin-left: -50%;
       margin-top:-20%;
       img{
         width:100%;
-        margin-top: 20px;
+        margin-top: 3%;
         margin-left: -0px;
+        margin-bottom:10px;
         .border(5px,solid, rgba(6, 1, 0, 0.38));
         .transition(0.5s);
         &:hover{
           .border(5px,solid, #f51a0d);
           .transition(0.3s);
-          .transform(1.05);
         }
+      }
+      b{
+        .cursor-default;
       }
     }
     #footer{
       position: absolute;
       background-color: rgb(78, 78, 78);
       bottom: 0;
-      width:100%;
-      height:140px;
+      width:110%;
+      height:130px;
       left:50%;
-      margin-left: -50%;
+      margin-left: -60%;
       padding-top:20px;
       color:white;
       font-size: 14px;
       article{
-        margin-left: 20%;
+        margin-left: 30%;
+        a{
+          color:white;
+        }
       }
   }
 }

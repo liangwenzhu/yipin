@@ -35,9 +35,10 @@ var mySwiper = new Swiper('.swiper1',{
         switch (index) {
             case 0: name='首页';break;
             case 1: name='产品简介';break;
-            case 2: name='应用场景';break;
-            case 3: name='关于我们';break;
-            case 4: name='联系我们';break;
+            case 2: name='精准地图';break;
+            case 3: name='服务平台';break;
+            case 4: name='空气社交';break;
+            case 5: name='联系我们';break;
         }
         return '<span class="' + className + '">' + name + '</span>';
     },
