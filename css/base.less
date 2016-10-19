@@ -1,0 +1,323 @@
+
+
+.background-size(@num){
+  background-size: @num;
+  -webkit-background-size: @num;
+  -moz-background-size: @num;
+}
+.background-size-cover{
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+}
+.pic-circle(@num){
+  border-radius:@num;
+  -webkit-border-radius: @num;
+  -moz-border-radius: @num;
+}
+.border(@size,@type,@color){
+  border:@size @type @color;
+}
+.border(@size,@type){
+  border:@size @type;
+}
+.transition(@time){
+  transition:all @time;
+  -webkit-transition:all @time;
+  -moz-transition:all @time;
+}
+.cursor-default{
+  cursor: default;
+}
+.transform(@x,@y){
+  transform:translate(@x,@y);
+  -webkit-transform:translate(@x,@y);
+  -moz-transform:translate(@x,@y);
+}
+.transform(@times){
+  transform:scale(@times);
+  -webkit-transform:scale(@times);
+  -moze-transform:scale(@times);
+}
+html{
+  height: 100%;
+}
+body{
+  position: relative;
+  min-width: 1170px;
+  min-height: 615px;
+  background-color: rgba(0, 0, 0, 0.13);
+  padding-top:70px;
+  height: 100%;
+}
+
+/*顶部导航*/
+#top-nav{
+  height: 70px;
+  min-width: 1170px;
+  .container{
+    min-width: 940px;
+  .my-pagination .swiper-pagination-bullet{
+    width:140px;
+    background: rgba(255, 255, 255, 0);
+    height:40px;
+    margin-top: 22px;
+    text-align:center;
+    border-radius:0;
+    opacity: .7;
+    font-size: 18px;
+    color:black;
+  }
+  .my-pagination .swiper-pagination-bullet-active{
+    opacity: 1;
+    color: #ff140a;
+  }
+  #lianxi{
+    position: relative;
+    #lianxiwomen{
+      padding:20px;
+      margin-top: -60px;
+      color: #060100;
+      border: none;
+      list-style-type: none;
+      a{
+        font-size: 20px;
+        color: #060100;
+      }
+    }
+    #QR-code{
+      display: none;
+      position: absolute;
+    }
+  }
+  #download-app{
+    margin-top: -55px;
+    padding:15px;
+    padding-top:15px;
+    padding-bottom:12px;
+    color:white;
+    background-color: rgba(6, 1, 0, 0.58);
+    border: none;
+    list-style-type: none;
+    .pic-circle(6px);
+    .cursor-default;
+    &:hover{
+      background-color: rgba(6, 1, 0, 0.78);
+    }
+  }
+}
+}
+/*首页*/
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+#swiper-container{
+  font-size: 18px;
+  background: #fff;
+  .overflow{
+    overflow: hidden;
+  }
+  #swiper-slide1{
+    position: relative;
+    background-image: url("../imgs/pc1.jpg") ;
+    .background-size-cover;
+    article{
+      position: absolute;
+      background-color: rgba(0, 0, 0, 0.41);
+      width: 3600px;
+      height:200px;
+      padding:20px;
+      left:50%;
+      margin-left: -1800px;
+      top:50%;
+      margin-top:-100px;
+      h1{
+        color:white;
+      }
+      button{
+        margin-top: 40px;
+        padding:20px;
+        background-color: rgba(0, 0, 0, 0);
+        color:white;
+        border-color: rgba(255, 251, 247, 0.39);
+        .transition(0.4s);
+        &:hover{
+          .border(1,solid,blue);
+          .transition(0.2s);
+        }
+      }
+    }
+  }
+  #swiper-slide2{
+    position: relative;
+    background: white ;
+    .background-size-cover;
+    article{
+      position: absolute;
+      left:50%;
+      top:55%;
+      margin-left: -50%;
+      margin-top: -25%;
+    }
+    img{
+      position: absolute;
+      width:85%;
+      left:50%;
+      top:50%;
+      margin-left: -42.5%;
+      margin-top: -25%;
+    }
+
+  }
+  #swiper-slide3{
+    position: relative;
+    background-image: url("../imgs/pc3.png") ;
+    .background-size-cover;
+  }
+
+
+  #swiper-slide4{
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.31);
+    #article7{
+      position: absolute;
+      top:40%;
+      margin-top: -200px;
+      left:50%;
+      margin-left: -450px;
+      font-size: 14px;
+      width:900px;
+      height:300px;
+      h2{
+        margin-bottom: 80px;
+      }
+      article{
+        margin-bottom: 0px;
+        font-size: 14px;
+        p{
+          margin-bottom: 1px;
+        }
+      }
+      .swiper-wrapper{
+        h3{
+          font-size: 18px;
+          color:black;
+        }
+        p{
+          margin-bottom: 0px;
+          font-size: small;
+        }
+      }
+      img{
+        margin-top: 20px;
+        width:150px;
+        .pic-circle(100px);
+        .border(5px,solid, rgba(6, 1, 0, 0.38));
+        .transition(0.5s);
+        &:hover{
+          .border(5px,solid, #f51a0d);
+          .transition(0.3s);
+          .transform(1.05);
+        }
+      }
+      button{
+        margin-top: 0px;
+        width:250px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        background-color: #f4f3f5;
+        .pic-circle(30px);
+        .border(1px,solid);
+        .transition(0.4s);
+        &:hover{
+          background-color: #f51a0d;
+          color:white;
+          .transition(0.2s);
+          .transition(0.9);
+        }
+      }
+      .swiper-button-prev,
+      .swiper-container-rtl .swiper-button-next {
+        //background-image: url("../icon/right.png");
+        left: -140px;
+        top:70%;
+        right: auto;
+        .transition(0.3s);
+        &:hover{
+          .transform(1.5);
+          .transition(0.2s);
+        }
+      }
+      .swiper-button-next,
+      .swiper-container-rtl .swiper-button-prev {
+        //background-image: url("../icon/right.png");
+        right: -140px;
+        top:70%;
+        left: auto;
+        .transition(0.3s);
+        &:hover{
+          .transform(1.5);
+          .transition(0.2s);
+        }
+      }
+    }
+
+  }
+}
+
+#swiper-slide5{
+position: relative;
+  article{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left:50%;
+    top:40%;
+    margin-left: -150px;
+    margin-top: -150px;
+    img{
+      width:300px;
+    }
+  }
+  #footer{
+    background-color: rgb(78, 78, 78);
+    position: absolute;
+    bottom: 0;
+    width:2200px;
+    height:200px;
+    left:50%;
+    margin-left: -1100px;
+    padding-top:20px;
+    color:white;
+    .container{
+      width:1200px;
+      font-size: 14px;
+    #company{
+      display: inline-block;
+      float:left;
+      margin-left: 100px;
+      padding-top:20px;
+    }
+    #map{
+      display: inline-block;
+      float:left;
+      margin-left: 300px;
+      padding-top:20px;
+      a{
+        color:white;
+      }
+    }
+    #contact{
+      display: inline-block;
+      float:left;
+      margin-left: 300px;
+      padding-top:20px;
+      a{
+        color:white;
+      }
+    }
+  }
+  }
+}
+
