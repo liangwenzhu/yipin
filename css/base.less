@@ -39,6 +39,9 @@
   -webkit-transform:scale(@times);
   -moze-transform:scale(@times);
 }
+.hidden{
+  overflow: hidden;
+}
 html{
   height: 100%;
 }
@@ -57,55 +60,55 @@ body{
   min-width: 1170px;
   .container{
     min-width: 940px;
-  .my-pagination .swiper-pagination-bullet{
-    width:140px;
-    background: rgba(255, 255, 255, 0);
-    height:40px;
-    margin-top: 22px;
-    text-align:center;
-    border-radius:0;
-    opacity: .7;
-    font-size: 18px;
-    color:black;
-  }
-  .my-pagination .swiper-pagination-bullet-active{
-    opacity: 1;
-    color: #ff140a;
-  }
-  #lianxi{
-    position: relative;
-    #lianxiwomen{
-      padding:20px;
-      margin-top: -60px;
-      color: #060100;
-      border: none;
-      list-style-type: none;
-      a{
-        font-size: 20px;
+    .my-pagination .swiper-pagination-bullet{
+      width:140px;
+      background: rgba(255, 255, 255, 0);
+      height:40px;
+      margin-top: 22px;
+      text-align:center;
+      border-radius:0;
+      opacity: .7;
+      font-size: 18px;
+      color:black;
+    }
+    .my-pagination .swiper-pagination-bullet-active{
+      opacity: 1;
+      color: #ff140a;
+    }
+    #lianxi{
+      position: relative;
+      #lianxiwomen{
+        padding:20px;
+        margin-top: -60px;
         color: #060100;
+        border: none;
+        list-style-type: none;
+        a{
+          font-size: 20px;
+          color: #060100;
+        }
+      }
+      #QR-code{
+        display: none;
+        position: absolute;
       }
     }
-    #QR-code{
-      display: none;
-      position: absolute;
+    #download-app{
+      margin-top: -55px;
+      padding:15px;
+      padding-top:15px;
+      padding-bottom:12px;
+      color:white;
+      background-color: rgba(6, 1, 0, 0.58);
+      border: none;
+      list-style-type: none;
+      .pic-circle(6px);
+      .cursor-default;
+      &:hover{
+        background-color: rgba(6, 1, 0, 0.78);
+      }
     }
   }
-  #download-app{
-    margin-top: -55px;
-    padding:15px;
-    padding-top:15px;
-    padding-bottom:12px;
-    color:white;
-    background-color: rgba(6, 1, 0, 0.58);
-    border: none;
-    list-style-type: none;
-    .pic-circle(6px);
-    .cursor-default;
-    &:hover{
-      background-color: rgba(6, 1, 0, 0.78);
-    }
-  }
-}
 }
 /*首页*/
 .swiper-container {
@@ -134,8 +137,9 @@ body{
       margin-top:-100px;
       h1{
         color:white;
+        margin-top:60px;
       }
-      button{
+      /*button{
         margin-top: 40px;
         padding:20px;
         background-color: rgba(0, 0, 0, 0);
@@ -146,7 +150,7 @@ body{
           .border(1,solid,blue);
           .transition(0.2s);
         }
-      }
+      }*/
     }
   }
   #swiper-slide2{
@@ -171,48 +175,137 @@ body{
 
   }
   #swiper-slide3{
+    img{
+      .border(1px,solid, rgba(122, 122, 122, 0.78));
+    }
     position: relative;
-    background-image: url("../imgs/pc3.png") ;
+    background-image: url("../imgs/bg.png") ;
     .background-size-cover;
-  }
-
-
-  #swiper-slide4{
-    position: relative;
-    background-color: rgba(255, 255, 255, 0.31);
-    #article7{
+    .container{
       position: absolute;
-      top:40%;
-      margin-top: -200px;
+      width:60%;
       left:50%;
-      margin-left: -450px;
-      font-size: 14px;
-      width:900px;
-      height:300px;
-      h2{
-        margin-bottom: 80px;
-      }
-      article{
-        margin-bottom: 0px;
-        font-size: 14px;
-        p{
-          margin-bottom: 1px;
-        }
-      }
-      .swiper-wrapper{
-        h3{
-          font-size: 18px;
-          color:black;
-        }
-        p{
-          margin-bottom: 0px;
-          font-size: small;
-        }
+      margin-left: -30%;
+      top:70%;
+      margin-top: -25%;
+      .col-md-4{
+        position: relative;
       }
       img{
+        position: absolute;
+        width:100%;
+        left:50%;
+        margin-left: -50%;
+      }
+      article{
+        height:50%;
+        padding-top:50%;
+      #sec{
+        padding-top:50px;
+        padding-bottom:50px;
+      }
+      }
+    }
+  }
+  #swiper-slide6{
+    background-image: url("../imgs/bg.png") ;
+    .background-size-cover;
+    img{
+      .border(1px,solid, rgba(122, 122, 122, 0.78));
+    }
+    position: relative;
+    .container{
+      position: absolute;
+      width:60%;
+      left:50%;
+      margin-left: -30%;
+      top:70%;
+      margin-top: -25%;
+      #app-pc2{
+        position: relative;
+        img{
+          position: absolute;
+          width:100%;
+          left:50%;
+          margin-left: -50%;
+        }
+        height:600px;
+      }
+      #app-pc3{
+        position: relative;
+        height:600px;
+        .absol{
+          position: relative;
+          margin-top: 28px;
+          img{
+            position: relative;
+            width:80%;
+            left:50%;
+            margin-left: -40%;
+
+          }
+        }
+      }
+      #app-pc4{
+        position: relative;
+        height:600px;
+        img{
+          position: absolute;
+          width:100%;
+          left:50%;
+          margin-left: -50%;
+        }
+      }
+    }
+  }
+  #swiper-slide7{
+    img{
+      .border(1px,solid, rgba(122, 122, 122, 0.78));
+    }
+    position: relative;
+    background-image: url("../imgs/bg.png") ;
+    .background-size-cover;
+    .container{
+      position: absolute;
+      width:60%;
+      left:50%;
+      margin-left: -30%;
+      top:70%;
+      margin-top: -25%;
+      .col-md-4{
+        position: relative;
+      }
+      img{
+        position: absolute;
+        width:100%;
+        left:50%;
+        margin-left: -50%;
+      }
+      article{
+        height:500px;
+        padding-top:80%;
+        #sec{
+          padding-top:50px;
+          padding-bottom:50px;
+        }
+      }
+    }
+
+  }
+  #swiper-slide4{
+    position: relative;
+    background-image: url("../imgs/bg.png") ;
+    .background-size-cover;
+    .container{
+      position: absolute;
+      left:50%;
+      top:50%;
+      margin-left: -42%;
+      margin-top:-20%;
+      img{
+        width:100%;
         margin-top: 20px;
-        width:150px;
-        .pic-circle(100px);
+        margin-left: -0px;
         .border(5px,solid, rgba(6, 1, 0, 0.38));
         .transition(0.5s);
         &:hover{
@@ -221,103 +314,21 @@ body{
           .transform(1.05);
         }
       }
-      button{
-        margin-top: 0px;
-        width:250px;
-        padding-top: 20px;
-        padding-bottom: 20px;
-        background-color: #f4f3f5;
-        .pic-circle(30px);
-        .border(1px,solid);
-        .transition(0.4s);
-        &:hover{
-          background-color: #f51a0d;
-          color:white;
-          .transition(0.2s);
-          .transition(0.9);
-        }
-      }
-      .swiper-button-prev,
-      .swiper-container-rtl .swiper-button-next {
-        //background-image: url("../icon/right.png");
-        left: -140px;
-        top:70%;
-        right: auto;
-        .transition(0.3s);
-        &:hover{
-          .transform(1.5);
-          .transition(0.2s);
-        }
-      }
-      .swiper-button-next,
-      .swiper-container-rtl .swiper-button-prev {
-        //background-image: url("../icon/right.png");
-        right: -140px;
-        top:70%;
-        left: auto;
-        .transition(0.3s);
-        &:hover{
-          .transform(1.5);
-          .transition(0.2s);
-        }
-      }
     }
-
-  }
-}
-
-#swiper-slide5{
-position: relative;
-  article{
-    position: absolute;
-    width: 300px;
-    height: 300px;
-    left:50%;
-    top:40%;
-    margin-left: -150px;
-    margin-top: -150px;
-    img{
-      width:300px;
-    }
-  }
-  #footer{
-    background-color: rgb(78, 78, 78);
-    position: absolute;
-    bottom: 0;
-    width:2200px;
-    height:200px;
-    left:50%;
-    margin-left: -1100px;
-    padding-top:20px;
-    color:white;
-    .container{
-      width:1200px;
+    #footer{
+      position: absolute;
+      background-color: rgb(78, 78, 78);
+      bottom: 0;
+      width:100%;
+      height:140px;
+      left:50%;
+      margin-left: -50%;
+      padding-top:20px;
+      color:white;
       font-size: 14px;
-    #company{
-      display: inline-block;
-      float:left;
-      margin-left: 100px;
-      padding-top:20px;
-    }
-    #map{
-      display: inline-block;
-      float:left;
-      margin-left: 300px;
-      padding-top:20px;
-      a{
-        color:white;
+      article{
+        margin-left: 20%;
       }
-    }
-    #contact{
-      display: inline-block;
-      float:left;
-      margin-left: 300px;
-      padding-top:20px;
-      a{
-        color:white;
-      }
-    }
-  }
   }
 }
-
+}
