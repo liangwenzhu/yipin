@@ -95,7 +95,7 @@ body {
 }
 #swiper-container #swiper-slide1 {
   position: relative;
-  background-image: url("../imgs/pc1.jpg");
+  background-image: url("../imgs/pc1.JPG");
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -268,7 +268,7 @@ body {
   height: 500px;
   padding-top: 80%;
 }
-#swiper-container #swiper-slide7 .container article #sec {
+#swiper-container #swiper-slide7 .container article #sec-sec {
   padding-top: 50px;
   padding-bottom: 50px;
 }
