@@ -134,20 +134,20 @@ body {
   -webkit-background-size: cover;
   -moz-background-size: cover;
 }
-#swiper-container #swiper-slide2 article {
+#swiper-container #swiper-slide2 h1 {
   position: absolute;
   left: 50%;
-  top: 50%;
-  margin-left: -50%;
-  margin-top: -25%;
+  margin-left: -11%;
+  z-index: 2;
 }
 #swiper-container #swiper-slide2 img {
   position: absolute;
   width: 85%;
   left: 50%;
-  top: 45%;
+  top: 60%;
   margin-left: -42.5%;
   margin-top: -25%;
+  z-index: 1;
 }
 #swiper-container #swiper-slide3 {
   position: relative;
@@ -323,4 +323,71 @@ body {
 }
 #swiper-container #swiper-slide4 #footer article a {
   color: white;
+}
+#swiper-slide11 {
+  position: relative;
+  background: white ;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+}
+#swiper-slide11 h1 {
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  left: 15%;
+}
+#swiper-slide11 img {
+  position: absolute;
+  width: 95%;
+  left: 50%;
+  top: 50%;
+  margin-left: -42.5%;
+  margin-top: -25%;
+  z-index: 1;
+}
+#swiper-slide12 {
+  position: relative;
+  background: white ;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+}
+#swiper-slide12 h1 {
+  position: absolute;
+  left: 60%;
+  top: 10%;
+  z-index: 2;
+  color: #4dccc1;
+}
+#swiper-slide12 img {
+  position: absolute;
+  width: 100%;
+  left: 50%;
+  top: 50%;
+  margin-left: -45%;
+  margin-top: -25%;
+  z-index: 1;
+}
+#swiper-slide13 {
+  position: relative;
+  background: white ;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+}
+#swiper-slide13 h1 {
+  position: absolute;
+  left: 50%;
+  margin-left: -13%;
+  z-index: 2;
+}
+#swiper-slide13 img {
+  position: absolute;
+  width: 100%;
+  left: 50%;
+  top: 50%;
+  margin-left: -50%;
+  margin-top: -25%;
+  z-index: 1;
 }

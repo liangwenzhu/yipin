@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd9fe3b3-22d0-4e49-8046-0b658a03a96a" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/imgs/intro2.PNG" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/base.css" afterPath="$PROJECT_DIR$/css/base.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/base.less" afterPath="$PROJECT_DIR$/css/base.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/base.js" afterPath="$PROJECT_DIR$/js/base.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/一品空气.html" afterPath="$PROJECT_DIR$/一品空气.html" />
     </list>
     <ignored path="1111.iws" />
@@ -29,36 +29,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="一品空气.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="一品空气.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/一品空气.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="452">
-              <caret line="94" column="42" selection-start-line="94" selection-start-column="42" selection-end-line="94" selection-end-column="42" />
+            <state relative-caret-position="228">
+              <caret line="149" column="99" selection-start-line="149" selection-start-column="99" selection-end-line="149" selection-end-column="99" />
               <folding>
-                <element signature="e#6772#6778#0" expanded="true" />
+                <element signature="e#2266#2272#0" expanded="true" />
+                <element signature="e#2272#2278#0" expanded="true" />
+                <element signature="e#2278#2284#0" expanded="true" />
+                <element signature="e#7016#7022#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.less" pinned="false" current-in-tab="true">
+      <file leaf-file-name="base.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/base.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="128" column="42" selection-start-line="128" selection-start-column="42" selection-end-line="128" selection-end-column="42" />
+            <state relative-caret-position="242">
+              <caret line="389" column="20" selection-start-line="389" selection-start-column="20" selection-end-line="389" selection-end-column="20" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="base.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/base.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -66,9 +57,23 @@
       <file leaf-file-name="base.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/base.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-6418">
-              <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="-8368">
+              <caret line="108" column="1" selection-start-line="108" selection-start-column="1" selection-end-line="108" selection-end-column="1" />
+              <folding>
+                <marker date="1478658996672" expanded="true" signature="3042:3045" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/base.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1564">
+              <caret line="83" column="25" selection-start-line="83" selection-start-column="25" selection-end-line="83" selection-end-column="25" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -102,11 +107,11 @@
         <option value="$PROJECT_DIR$/213.html" />
         <option value="$PROJECT_DIR$/动态表格.html" />
         <option value="$PROJECT_DIR$/03-vertical.html" />
-        <option value="$PROJECT_DIR$/css/base.css" />
         <option value="$PROJECT_DIR$/js/self.js" />
+        <option value="$PROJECT_DIR$/css/base.css" />
         <option value="$PROJECT_DIR$/js/base.js" />
-        <option value="$PROJECT_DIR$/一品空气.html" />
         <option value="$PROJECT_DIR$/css/base.less" />
+        <option value="$PROJECT_DIR$/一品空气.html" />
       </list>
     </option>
   </component>
@@ -117,9 +122,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
+    <option name="x" value="399" />
+    <option name="y" value="2" />
+    <option name="width" value="1378" />
     <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -158,7 +163,7 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/liangliang/Desktop/2222/xiaoyang - 副本 (3).html" />
   </component>
-  <component name="RunManager" selected="JavaScript Debug.一品空气.html">
+  <component name="RunManager" selected="JavaScript Debug.一品空气.html (1)">
     <configuration default="false" name="zhanshi.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/2222/zhanshi.html">
       <method />
     </configuration>
@@ -166,6 +171,9 @@
       <method />
     </configuration>
     <configuration default="false" name="一品空气.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/4444/一品空气.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="一品空气.html (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/yiping/一品空气.html">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -221,16 +229,18 @@
       <recursive>false</recursive>
       <method />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.zhanshi.html" />
       <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.xiaoyang.html" />
       <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.一品空气.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.一品空气.html (1)" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.一品空气.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.xiaoyang.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.zhanshi.html" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.一品空气.html (1)" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.一品空气.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.xiaoyang.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.zhanshi.html" />
       </list>
     </recent_temporary>
   </component>
@@ -263,25 +273,27 @@
       <workItem from="1476926287953" duration="2031000" />
       <workItem from="1476935108704" duration="113000" />
       <workItem from="1476942579890" duration="773000" />
+      <workItem from="1478593480896" duration="3198000" />
+      <workItem from="1478654955685" duration="4811000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="263744000" />
+    <option name="totallyTimeSpent" value="271753000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="399" y="2" width="1378" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24889868" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32492113" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32385466" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39589906" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.07582939" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -320,7 +332,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="10020">
           <caret line="334" column="1" selection-start-line="334" selection-start-column="1" selection-end-line="334" selection-end-column="1" />
-          <folding />
+          <folding>
+            <marker date="1478658996672" expanded="true" signature="3042:3045" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -342,7 +356,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3090">
           <caret line="103" column="17" selection-start-line="103" selection-start-column="17" selection-end-line="103" selection-end-column="17" />
-          <folding />
+          <folding>
+            <marker date="1478658996672" expanded="true" signature="3042:3045" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -389,39 +405,44 @@
     <entry file="file://$PROJECT_DIR$/动态表格.html" />
     <entry file="file://$PROJECT_DIR$/03-vertical.html" />
     <entry file="file://$PROJECT_DIR$/js/self.js" />
+    <entry file="file://$PROJECT_DIR$/css/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8368">
+          <caret line="108" column="1" selection-start-line="108" selection-start-column="1" selection-end-line="108" selection-end-column="1" />
+          <folding>
+            <marker date="1478658996672" expanded="true" signature="3042:3045" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/base.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+        <state relative-caret-position="1564">
+          <caret line="83" column="25" selection-start-line="83" selection-start-column="25" selection-end-line="83" selection-end-column="25" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/base.css">
+    <entry file="file://$PROJECT_DIR$/css/base.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6418">
-          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+        <state relative-caret-position="242">
+          <caret line="389" column="20" selection-start-line="389" selection-start-column="20" selection-end-line="389" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/一品空气.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="94" column="42" selection-start-line="94" selection-start-column="42" selection-end-line="94" selection-end-column="42" />
+        <state relative-caret-position="228">
+          <caret line="149" column="99" selection-start-line="149" selection-start-column="99" selection-end-line="149" selection-end-column="99" />
           <folding>
-            <element signature="e#6772#6778#0" expanded="true" />
+            <element signature="e#2266#2272#0" expanded="true" />
+            <element signature="e#2272#2278#0" expanded="true" />
+            <element signature="e#2278#2284#0" expanded="true" />
+            <element signature="e#7016#7022#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/base.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="128" column="42" selection-start-line="128" selection-start-column="42" selection-end-line="128" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
