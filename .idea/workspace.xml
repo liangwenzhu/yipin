@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd9fe3b3-22d0-4e49-8046-0b658a03a96a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/base.css" afterPath="$PROJECT_DIR$/css/base.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/base.less" afterPath="$PROJECT_DIR$/css/base.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/base.js" afterPath="$PROJECT_DIR$/js/base.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/一品空气.html" afterPath="$PROJECT_DIR$/一品空气.html" />
     </list>
     <ignored path="1111.iws" />
@@ -32,13 +30,13 @@
       <file leaf-file-name="一品空气.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/一品空气.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="149" column="99" selection-start-line="149" selection-start-column="99" selection-end-line="149" selection-end-column="99" />
+            <state relative-caret-position="270">
+              <caret line="9" column="47" selection-start-line="6" selection-start-column="4" selection-end-line="9" selection-end-column="47" />
               <folding>
-                <element signature="e#2266#2272#0" expanded="true" />
-                <element signature="e#2272#2278#0" expanded="true" />
-                <element signature="e#2278#2284#0" expanded="true" />
-                <element signature="e#7016#7022#0" expanded="true" />
+                <element signature="e#2240#2246#0" expanded="true" />
+                <element signature="e#2246#2252#0" expanded="true" />
+                <element signature="e#2252#2258#0" expanded="true" />
+                <element signature="e#6990#6996#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -47,8 +45,8 @@
       <file leaf-file-name="base.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/base.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="389" column="20" selection-start-line="389" selection-start-column="20" selection-end-line="389" selection-end-column="20" />
+            <state relative-caret-position="-390">
+              <caret line="47" column="21" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -60,7 +58,7 @@
             <state relative-caret-position="-8368">
               <caret line="108" column="1" selection-start-line="108" selection-start-column="1" selection-end-line="108" selection-end-column="1" />
               <folding>
-                <marker date="1478658996672" expanded="true" signature="3042:3045" ph="{...}" />
+                <marker date="1478660952318" expanded="true" signature="3042:3045" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -110,8 +108,8 @@
         <option value="$PROJECT_DIR$/js/self.js" />
         <option value="$PROJECT_DIR$/css/base.css" />
         <option value="$PROJECT_DIR$/js/base.js" />
-        <option value="$PROJECT_DIR$/css/base.less" />
         <option value="$PROJECT_DIR$/一品空气.html" />
+        <option value="$PROJECT_DIR$/css/base.less" />
       </list>
     </option>
   </component>
@@ -122,8 +120,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="399" />
-    <option name="y" value="2" />
+    <option name="x" value="433" />
+    <option name="y" value="18" />
     <option name="width" value="1378" />
     <option name="height" value="744" />
   </component>
@@ -274,15 +272,15 @@
       <workItem from="1476935108704" duration="113000" />
       <workItem from="1476942579890" duration="773000" />
       <workItem from="1478593480896" duration="3198000" />
-      <workItem from="1478654955685" duration="4811000" />
+      <workItem from="1478654955685" duration="6240000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="271753000" />
+    <option name="totallyTimeSpent" value="273182000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="399" y="2" width="1378" height="744" extended-state="0" />
+    <frame x="433" y="18" width="1378" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24889868" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -333,7 +331,7 @@
         <state relative-caret-position="10020">
           <caret line="334" column="1" selection-start-line="334" selection-start-column="1" selection-end-line="334" selection-end-column="1" />
           <folding>
-            <marker date="1478658996672" expanded="true" signature="3042:3045" ph="{...}" />
+            <marker date="1478660952318" expanded="true" signature="3042:3045" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -357,7 +355,7 @@
         <state relative-caret-position="3090">
           <caret line="103" column="17" selection-start-line="103" selection-start-column="17" selection-end-line="103" selection-end-column="17" />
           <folding>
-            <marker date="1478658996672" expanded="true" signature="3042:3045" ph="{...}" />
+            <marker date="1478660952318" expanded="true" signature="3042:3045" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -410,7 +408,7 @@
         <state relative-caret-position="-8368">
           <caret line="108" column="1" selection-start-line="108" selection-start-column="1" selection-end-line="108" selection-end-column="1" />
           <folding>
-            <marker date="1478658996672" expanded="true" signature="3042:3045" ph="{...}" />
+            <marker date="1478660952318" expanded="true" signature="3042:3045" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -427,21 +425,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/base.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="389" column="20" selection-start-line="389" selection-start-column="20" selection-end-line="389" selection-end-column="20" />
+        <state relative-caret-position="-390">
+          <caret line="47" column="21" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/一品空气.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="149" column="99" selection-start-line="149" selection-start-column="99" selection-end-line="149" selection-end-column="99" />
+        <state relative-caret-position="270">
+          <caret line="9" column="47" selection-start-line="6" selection-start-column="4" selection-end-line="9" selection-end-column="47" />
           <folding>
-            <element signature="e#2266#2272#0" expanded="true" />
-            <element signature="e#2272#2278#0" expanded="true" />
-            <element signature="e#2278#2284#0" expanded="true" />
-            <element signature="e#7016#7022#0" expanded="true" />
+            <element signature="e#2240#2246#0" expanded="true" />
+            <element signature="e#2246#2252#0" expanded="true" />
+            <element signature="e#2252#2258#0" expanded="true" />
+            <element signature="e#6990#6996#0" expanded="true" />
           </folding>
         </state>
       </provider>
