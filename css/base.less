@@ -51,13 +51,14 @@ body{
   background-color: rgba(0, 0, 0, 0.13);
   padding-top:70px;
   height: 100%;
+  overflow:-Scroll;overflow-y:hidden;
 }
 /*顶部导航*/
 #top-nav{
   height: 70px;
-  min-width: 1170px;
+  min-width: 1200px;
   .container{
-    min-width: 940px;
+    min-width: 1200px;
     .my-pagination .swiper-pagination-bullet{
       width:120px;
       background: rgba(255, 255, 255, 0);
@@ -94,7 +95,6 @@ body{
     #download-app{
       margin-top: -55px;
       padding:15px;
-      padding-top:15px;
       padding-bottom:12px;
       color:white;
       background-color: rgba(6, 1, 0, 0.58);
@@ -104,6 +104,43 @@ body{
       .cursor-default;
       &:hover{
         background-color: rgba(6, 1, 0, 0.78);
+      }
+    }
+    #sign{
+      width:70px;
+      height:47px;
+      margin-top: -47px;
+      margin-left: -75px;
+      padding:15px;
+      padding-bottom:12px;
+      color:white;
+      background-color: rgba(6, 1, 0, 0.58);
+      border: none;
+      list-style-type: none;
+      .pic-circle(6px);
+      .cursor-default;
+      &:hover{
+        background-color: #ff0e52;
+      }
+      button{
+        background-color: rgba(0, 0, 0, 0);
+        border:none;
+        width:70px;
+        height:47px;
+        margin-top: -50px;
+        margin-left: -15px;
+        &:focus{
+          outline:none;
+        }
+      }
+      #a{
+        width:10px;
+        padding:5px;
+        text-decoration: none;
+        color:white;
+        &:focus{
+          outline:none;
+        }
       }
     }
   }

@@ -19,6 +19,7 @@
         <div class="pull-right">
             <ul>
                 <li id="download-app">APP下载</li>
+                <li id="sign"><a id="a" data-toggle="modal" href="#motal-login-password">登录</a></li>
             </ul>
         </div>
         <div id="lianxi" class="pull-right">
@@ -26,6 +27,81 @@
         </div>
     </div>
 </nav>
+<!--登录-->
+<div id="motal-login-password" class="modal fade .modal-dialog motal-login">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="myModalLabel"><img src="icon/logo.png"></h4>
+            </div>
+            <div class="modal-body" method="post" action="" > <!--表单提交-->
+                <div class="form-group  has-feedback">
+                    <label class="control-label" for="phone-num">账号</label>
+                    <input type="text" class="form-control input-lg" id="phone-num" name="phone-num" placeholder="请输入邮箱 / 手机号">
+                    <!--<span class="glyphicon glyphicon-book form-control-feedback"></span>-->
+                </div>
+                <div class="form-group  has-feedback">
+                    <label class="control-label" for="password">密码</label>
+                    <input type="password" class="form-control input-lg" id="password" name="password" placeholder="请输入密码">
+                </div>
+                <p><a  class="text-left" href="#motal-login-phone" data-toggle="modal" data-dismiss="modal" href="#motal-regisert">&nbsp</a><a href="#" class="pull-right">找回密码</a></p>
+                <h4 class="text-center">还没有账号？<a href="#motal-register" calss="register" data-toggle="modal" data-dismiss="modal" href="#motal-regisert" >立即注册</a></h4>
+                <p class="text-center">注册账号并与一品空气达成合作后，您可以实时设置您的服务内容</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                <button type="button" class="btn btn-primary pull-left">登录</button>
+            </div>
+        </div>
+    </div>
+</div><!-- 登录底部-->
+<!--注册-->
+<div id="motal-register" class="modal fade  motal-login ">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="myModalLabel"><img src="icon/logo.png"></h4>
+            </div>
+            <div class="modal-body" method="post" action="" > <!--表单提交-->
+                <div class="form-group  has-feedback">
+                    <input type="text" class="form-control input-sm" id="name" name="name" placeholder="请输入企业名称">
+                </div>
+                <div class="form-group  has-feedback">
+                    <input type="text" class="form-control input-sm" id="number" name="number" placeholder="请输入企业备注号">
+                </div>
+                <div class="form-group  has-feedback">
+                    <input type="text" class="form-control input-sm" id="address" name="address" placeholder="请输入企业地址">
+                </div>
+                <div class="form-group  has-feedback">
+                    <input type="email" class="form-control input-sm" id="email" name="email" placeholder="请输入企业邮箱">
+                </div>
+                <div class="form-group  has-feedback">
+                    <input type="text" class="form-control input-sm" id="phone-num" name="phone-num" placeholder="请输入手机号">
+                </div>
+                <div class="form-group  has-feedback">
+                    <input type="password" class="form-control input-sm" id="password" name="password" placeholder="请设置您的密码">
+                </div>
+                <div class="form-group  has-feedback">
+                    <input type="password" class="form-control input-sm" id="repassword" name="repassword" placeholder="请重新输入密码">
+                </div>
+                <div class="form-group  has-feedback">
+                    <div class="input-group">
+                        <input type="text" class="form-control input-sm" id="id-code" name="id-code" placeholder="请输入验证码">
+                        <span class="input-group-btn"> <button id="id-code-btn" class="btn btn-sm">获取验证码</button></span>
+                    </div>
+                </div>
+                <h4 class="text-center">已经有账号？<a href="#motal-login-password" data-toggle="modal" data-dismiss="modal" href="#motal-regisert">立即登录</a></h4>
+                <p class="text-center">注册即表示同意<a href="agreement.html" target="_blank">《一品空气使用协议》</a></p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                <button type="button" class="btn btn-primary pull-left">注册</button>
+            </div>
+        </div>
+    </div>
+</div><!-- 注册底部-->
 <div id="swiper-container" class="swiper-container swiper1 ">
     <div class="swiper-wrapper">
         <div id="swiper-slide1" class="swiper-slide overflow">
@@ -53,7 +129,7 @@
         <div id="swiper-slide3" class="swiper-slide overflow">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-4 "><img src="imgs/app-pic1.jpg"></div>
+                    <div class="col-md-4 "><img src="imgs/app-pic1.png"></div>
                 <div class="col-md-4">
                     <article class="text-center" >
                         <p><b>空气检测</b></p>
@@ -61,7 +137,7 @@
                         <p><b>行动建议</b></p>
                     </article>
                 </div>
-                <div class="col-md-4 " ><img src="imgs/app-pic4.jpg"></div>
+                <div class="col-md-4 " ><img src="imgs/app-pic4.png"></div>
             </div>
         </div>
     </div>
@@ -155,10 +231,11 @@
         </div>
     </div>
 </div>
-
+</div>
 <script src="js/jquery.min.js"></script>
 <script src="js/swiper-3.3.1.jquery.min.js"></script>
 <script src="js/swiper.animate1.0.2.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
 <script src="js/base.js"></script>
 </body>
 </html>
