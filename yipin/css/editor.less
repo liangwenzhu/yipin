@@ -1,0 +1,251 @@
+
+.background-size(@num){
+  background-size: @num;
+  -webkit-background-size: @num;
+  -moz-background-size: @num;
+}
+.background-size-cover{
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+}
+.pic-circle(@num){
+  border-radius:@num;
+  -webkit-border-radius: @num;
+  -moz-border-radius: @num;
+}
+.border(@size,@type,@color){
+  border:@size @type @color;
+}
+.border(@size,@type){
+  border:@size @type;
+}
+.transition(@time){
+  transition:all @time;
+  -webkit-transition:all @time;
+  -moz-transition:all @time;
+}
+.cursor-default{
+  cursor: default;
+}
+.transform(@x,@y){
+  transform:translate(@x,@y);
+  -webkit-transform:translate(@x,@y);
+  -moz-transform:translate(@x,@y);
+}
+.transform(@times){
+  transform:scale(@times);
+  -webkit-transform:scale(@times);
+  -moze-transform:scale(@times);
+}
+.hidden{
+  overflow: hidden;
+}
+
+body{
+  position: relative;
+  min-width: 1000px;
+  min-height: 615px;
+  background-color: rgba(0, 0, 0, 0.13);
+  padding-top:70px;
+  height: 100%;
+}
+/*顶部导航*/
+#top-nav{
+  height: 70px;
+  min-width: 1200px;
+  .container{
+    min-width: 1200px;
+    .my-pagination .swiper-pagination-bullet{
+      width:120px;
+      background: rgba(255, 255, 255, 0);
+      height:40px;
+      margin-top: 22px;
+      text-align:center;
+      border-radius:0;
+      opacity: .7;
+      font-size: 18px;
+      color:black;
+    }
+    .my-pagination .swiper-pagination-bullet-active{
+      opacity: 1;
+      color: #ff140a;
+    }
+    #lianxi{
+      position: relative;
+      #lianxiwomen{
+        padding:20px;
+        margin-top: -60px;
+        color: #060100;
+        border: none;
+        list-style-type: none;
+        a{
+          font-size: 20px;
+          color: #060100;
+        }
+      }
+      #QR-code{
+        display: none;
+        position: absolute;
+      }
+    }
+    #download-app{
+      margin-top: -40px;
+      padding:15px;
+      padding-bottom:12px;
+      color:white;
+      background-color: rgba(6, 1, 0, 0.58);
+      border: none;
+      list-style-type: none;
+      .pic-circle(6px);
+      .cursor-default;
+      &:hover{
+        background-color: rgba(6, 1, 0, 0.78);
+      }
+    }
+    #sign{
+      width:70px;
+      height:47px;
+      margin-top: -47px;
+      margin-left: -75px;
+      padding:15px;
+      padding-bottom:12px;
+      color:white;
+      background-color: rgba(6, 1, 0, 0.58);
+      border: none;
+      list-style-type: none;
+      .pic-circle(6px);
+      .cursor-default;
+      &:hover{
+        background-color: #ff0e52;
+      }
+      button{
+        background-color: rgba(0, 0, 0, 0);
+        border:none;
+        width:70px;
+        height:47px;
+        margin-top: -20px;
+        margin-left: -15px;
+        &:focus{
+          outline:none;
+        }
+        a{
+          padding:10px;
+          text-decoration: none;
+          color:white;
+          &:focus{
+            outline:none;
+          }
+        }
+      }
+    }
+  }
+}
+#article-editor{
+  width:940px;
+  background-color: white;
+  h5{
+    margin-bottom: 50px;
+  }
+  p{
+    margin-top: 20px;
+    margin-bottom: 15px;
+    margin-right: 290px;
+  }
+  #upload{
+    margin-left: 155px;
+    background-color: #ff9497;
+  }
+  #ul{
+    margin-left: 140px;
+    li{
+      float:left;
+      width:150px;
+      height:150px;
+       list-style-type: none;
+      margin-left:15px;
+      img{
+        width:150px;
+        height:150px;
+      }
+    }
+  }
+  #project{
+      font-size:20px;
+      margin-right:90px;
+      margin-bottom:30px;
+      input{
+        margin-right:60px;
+        visibility:hidden;
+      }
+    /*单选框样式*/
+    .select {
+       padding-left: 30px;
+       cursor: pointer;
+       background: url(../icon/select.png) no-repeat left;
+     }
+    .unselect{
+      padding-left: 30px;
+      cursor: pointer;
+      background: url(../icon/unselect.png) no-repeat left;
+    }
+  }
+  #servicetime{
+    margin-top:70px;
+  }
+  .remove{
+    padding:5px;
+    text-decoration:none;
+    cursor:pointer;
+  }
+  #add{
+    float:right;
+    display: block;
+    padding:5px;
+    text-decoration:none;
+    cursor:pointer;
+  }
+  #time{
+    margin-top:30px;
+    margin-bottom:30px;
+    margin-right: 360px;
+    a{
+      margin-right:50px;
+      margin-bottom:20px;
+    }
+    #work{
+      margin-top:20px;
+      margin-bottom:20px;
+
+      input{
+        width:120px;
+        font-size:20px;
+
+      }
+    }
+    #week{
+      margin-left:12px;
+      input{
+        width:120px;
+        font-size:20px;
+      }
+    }
+    span{
+      margin-right: 20px;
+    }
+
+  }
+  #submit{
+    padding-top:10px;
+    padding-bottom:10px;
+    width:160px;
+    margin-bottom:40px;
+    font-size:20px;
+    .pic-circle(60px);
+    border:none;
+    &:hover{
+      background-color: #ff0e52;
+      color:white;
+    }
+  }
+}

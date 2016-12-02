@@ -1,0 +1,221 @@
+.background-size-cover {
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+}
+.cursor-default {
+  cursor: default;
+}
+.hidden {
+  overflow: hidden;
+}
+body {
+  position: relative;
+  min-width: 1000px;
+  min-height: 615px;
+  background-color: rgba(0, 0, 0, 0.13);
+  padding-top: 70px;
+  height: 100%;
+}
+/*顶部导航*/
+#top-nav {
+  height: 70px;
+  min-width: 1200px;
+}
+#top-nav .container {
+  min-width: 1200px;
+}
+#top-nav .container .my-pagination .swiper-pagination-bullet {
+  width: 120px;
+  background: rgba(255, 255, 255, 0);
+  height: 40px;
+  margin-top: 22px;
+  text-align: center;
+  border-radius: 0;
+  opacity: .7;
+  font-size: 18px;
+  color: black;
+}
+#top-nav .container .my-pagination .swiper-pagination-bullet-active {
+  opacity: 1;
+  color: #ff140a;
+}
+#top-nav .container #lianxi {
+  position: relative;
+}
+#top-nav .container #lianxi #lianxiwomen {
+  padding: 20px;
+  margin-top: -60px;
+  color: #060100;
+  border: none;
+  list-style-type: none;
+}
+#top-nav .container #lianxi #lianxiwomen a {
+  font-size: 20px;
+  color: #060100;
+}
+#top-nav .container #lianxi #QR-code {
+  display: none;
+  position: absolute;
+}
+#top-nav .container #download-app {
+  margin-top: -40px;
+  padding: 15px;
+  padding-bottom: 12px;
+  color: white;
+  background-color: rgba(6, 1, 0, 0.58);
+  border: none;
+  list-style-type: none;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  cursor: default;
+}
+#top-nav .container #download-app:hover {
+  background-color: rgba(6, 1, 0, 0.78);
+}
+#top-nav .container #sign {
+  width: 70px;
+  height: 47px;
+  margin-top: -47px;
+  margin-left: -75px;
+  padding: 15px;
+  padding-bottom: 12px;
+  color: white;
+  background-color: rgba(6, 1, 0, 0.58);
+  border: none;
+  list-style-type: none;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  cursor: default;
+}
+#top-nav .container #sign:hover {
+  background-color: #ff0e52;
+}
+#top-nav .container #sign button {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  width: 70px;
+  height: 47px;
+  margin-top: -20px;
+  margin-left: -15px;
+}
+#top-nav .container #sign button:focus {
+  outline: none;
+}
+#top-nav .container #sign button a {
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+}
+#top-nav .container #sign button a:focus {
+  outline: none;
+}
+#article-editor {
+  width: 940px;
+  background-color: white;
+}
+#article-editor h5 {
+  margin-bottom: 50px;
+}
+#article-editor p {
+  margin-top: 20px;
+  margin-bottom: 15px;
+  margin-right: 290px;
+}
+#article-editor #upload {
+  margin-left: 155px;
+  background-color: #ff9497;
+}
+#article-editor #ul {
+  margin-left: 140px;
+}
+#article-editor #ul li {
+  float: left;
+  width: 150px;
+  height: 150px;
+  list-style-type: none;
+  margin-left: 15px;
+}
+#article-editor #ul li img {
+  width: 150px;
+  height: 150px;
+}
+#article-editor #project {
+  font-size: 20px;
+  margin-right: 90px;
+  margin-bottom: 30px;
+  /*单选框样式*/
+}
+#article-editor #project input {
+  margin-right: 60px;
+  visibility: hidden;
+}
+#article-editor #project .select {
+  padding-left: 30px;
+  cursor: pointer;
+  background: url(../icon/select.png) no-repeat left;
+}
+#article-editor #project .unselect {
+  padding-left: 30px;
+  cursor: pointer;
+  background: url(../icon/unselect.png) no-repeat left;
+}
+#article-editor #servicetime {
+  margin-top: 70px;
+}
+#article-editor .remove {
+  padding: 5px;
+  text-decoration: none;
+  cursor: pointer;
+}
+#article-editor #add {
+  float: right;
+  display: block;
+  padding: 5px;
+  text-decoration: none;
+  cursor: pointer;
+}
+#article-editor #time {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-right: 360px;
+}
+#article-editor #time a {
+  margin-right: 50px;
+  margin-bottom: 20px;
+}
+#article-editor #time #work {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#article-editor #time #work input {
+  width: 120px;
+  font-size: 20px;
+}
+#article-editor #time #week {
+  margin-left: 12px;
+}
+#article-editor #time #week input {
+  width: 120px;
+  font-size: 20px;
+}
+#article-editor #time span {
+  margin-right: 20px;
+}
+#article-editor #submit {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 160px;
+  margin-bottom: 40px;
+  font-size: 20px;
+  border-radius: 60px;
+  -webkit-border-radius: 60px;
+  -moz-border-radius: 60px;
+  border: none;
+}
+#article-editor #submit:hover {
+  background-color: #ff0e52;
+  color: white;
+}

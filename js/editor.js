@@ -91,8 +91,52 @@ var select = function(){
         $(this).attr("class","select");
     })
 };
-
+/*读取省级option*/
+function loadJson1() {
+    $.getJSON('city.json',function(data){
+        $.each(data, function(entryIndex, entry){
+            var html = '<option>'+entry.name+'</option>';
+            /*将省名插入*/
+            $("#province").append(html);
+            /*检测现在所选定的值*/
+            var select = ($("#province option:selected").text());
+            if(entry.name==select){
+                var citys = entry.city;
+                $.each(citys,function(entryIndex, entry){
+                    city+='<option>'+entry.name+'</option>';
+                    //  area+='<option>'+entry.area+'</option>';
+                });
+            }
+        });
+        // $("#province").html(html);
+        /*初值，就是北京*/
+        $("#city").html(city);
+        // $("#area").html(area);
+    });
+}
+/*根据省级变化读取城市option*/
+function loadJson2(){
+    $.getJSON('city.json',function(data){
+        var select1 = ($("#province option:selected").text());
+        $.each(data, function(entryIndex, entry){
+            /*检测现在所选定的值*/
+            if(entry.name==select1){
+                var cityss = entry.city;
+                citysss='';
+                //areasss='';  区，现在暂时不需要
+                $.each(cityss,function(entryIndex, entry){
+                    citysss+='<option>'+entry.name+'</option>';
+                    // areasss+='<option>'+entry.area+'</option>';
+                });
+            }
+        });
+        // $("#province").html(html);
+        $("#city").html(citysss);
+        //$("#area").html(areasss);
+    })
+}
 $(function() {
+    loadJson1();//初始化地区三联动option.
     $('[type=file]').change(function(e) {
         var file1 = e.target.files[0];
         var file2 = e.target.files[1];

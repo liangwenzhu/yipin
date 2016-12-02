@@ -16,6 +16,7 @@ body {
   background-color: rgba(0, 0, 0, 0.13);
   padding-top: 70px;
   height: 100%;
+  font-family: "Arial", "Microsoft YaHei", "黑体", "宋体", sans-serif;
 }
 /*顶部导航*/
 #top-nav {
@@ -144,12 +145,14 @@ body {
 }
 #article-editor #project {
   font-size: 20px;
-  margin-right: 90px;
+  margin-right: 70px;
   margin-bottom: 30px;
   /*单选框样式*/
 }
 #article-editor #project input {
-  margin-right: 60px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-right: 20px;
   visibility: hidden;
 }
 #article-editor #project .select {
@@ -161,6 +164,26 @@ body {
   padding-left: 30px;
   cursor: pointer;
   background: url(../icon/unselect.png) no-repeat left;
+}
+#article-editor #service_area {
+  margin-top: 90px;
+  margin-bottom: 30px;
+  margin-left: -15px;
+}
+#article-editor #service_area #chose_area {
+  margin-top: 40px;
+  margin-left: -40px;
+}
+#article-editor #service_area #chose_area label {
+  margin-left: 30px;
+}
+#article-editor #service_area #chose_area select {
+  width: 120px;
+  height: 40px;
+}
+#article-editor #service_area #chose_area input {
+  width: 200px;
+  height: 40px;
 }
 #article-editor #servicetime {
   margin-top: 70px;
@@ -180,11 +203,15 @@ body {
 #article-editor #time {
   margin-top: 30px;
   margin-bottom: 30px;
-  margin-right: 360px;
+  margin-right: 340px;
 }
 #article-editor #time a {
   margin-right: 50px;
   margin-bottom: 20px;
+}
+#article-editor #time b {
+  margin-left: 12px;
+  margin-right: 8px;
 }
 #article-editor #time #work {
   margin-top: 20px;
